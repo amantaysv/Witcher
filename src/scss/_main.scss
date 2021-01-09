@@ -1,0 +1,126 @@
+.main {
+    padding-top: 90px;
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+
+        .row {
+            margin-right: 15%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .col {
+
+                .wrapper {
+
+                    &__genre {
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 16px;
+                        color: #FFFFFF;
+                    }
+
+                    &__rating {
+                        margin-top: 16px;
+                        display: flex;
+                        align-items: flex-start;
+
+
+                        .rating {
+                            font-family: Roboto;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 12px;
+                            color: #FFFFFF;
+                            margin-left: 9px;
+                        }
+                    }
+
+                    &__title {
+                        font-family: "MasonChronicles";
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 76px;
+                        line-height: 89px;
+                        color: #FFFFFF;
+                        max-width: 296px;
+                        margin-top: 12.5px;
+                    }
+
+                    &__descr {
+                        max-width: 451px;
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 150%;
+                        color: #FFFFFF;
+                        margin-top: 10px;
+                    }
+
+                    &__btn {
+                        display: block;
+                        width: 260px;
+                        height: 60px;
+                        background: #9D2929;
+                        border-radius: 8px;
+                        border: none;
+                        outline: none;
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 14px;
+                        color: #FFFFFF;
+                        margin-top: 40px;
+                        transition: .4s ease-out;
+
+                        &:hover {
+                            transition: .4s ease-in;
+                            cursor: pointer;
+                            background: #E50914;
+                        }
+                    }
+                }
+
+                .play-btn {
+                    transition: .5s ease-out;
+
+                    &:hover {
+                        transition: .5s ease-in;
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+
+    &__series {
+        display: flex;
+        align-items: center;
+        margin-top: 90px;
+
+        .card {
+            margin-right: 30px;
+            transition: .3s ease-out;
+
+            &:hover {
+                transition: .3s ease-in;
+                transform: scale(1.1);
+            }
+        }
+
+        .arrow {
+            transition: .3s ease-out;
+
+            &:hover {
+                cursor: pointer;
+                transition: .3s ease-in;
+                transform: scale(1.2);
+            }
+        }
+    }
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Witcher</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="./src/js/jqueryFancybox/jquery.fancybox.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="home">
+        <header class="header">
+            <div class="container">
+                <div class="burger">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                        <span></span>
+                    </label>
+                    <div class="menu__box">
+                        <ul class="nav nav-1">
+                            <li>
+                                <a href="#" class="nav__link">
+                                    <img src="./src/images/svg/logo.svg" alt="logo" class="logo">
+                                </a>
+                            </li>
+                            <li><a class="nav__link" href="#">Описание</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=EUizTA1nrfA" class="nav__link" data-fancybox
+                                    data-width="1100" data-height="620">Трейлер</a>
+                            </li>
+                            <li><a class="nav__link" href="#">Отзывы</a></li>
+                        </ul>
+                        <ul class="nav nav-2">
+                            <li>
+                                <a href="#">
+                                    <img src="./src/images/svg/twitter.svg" alt="twitter" class="nav__icon">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./src/images/svg/instagram.svg" alt="instagram"
+                                        class="nav__icon nav__icon-1">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./src/images/svg/facebook.svg" alt="facebook" class="nav__icon">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="wrapper">
+                            <p class="wrapper__genre">2019, фэнтези</p>
+                            <div class="wrapper__rating">
+                                <img src="./src/images/svg/rating.svg" alt="rating">
+                                <span class="rating">7/10</span>
+                            </div>
+                            <p class="wrapper__title">Ведьмак</p>
+                            <p class="wrapper__descr">Ведьмак Геральт, мутант и убийца чудовищ, на своей верной лошади
+                                по кличке Плотва путешествует по Континенту. За тугой мешочек чеканных монет этот
+                                мужчина избавит вас от всякой настырной нечисти — хоть от чудищ болотных, оборотней и
+                                даже заколдованных принцесс.
+                            </p>
+                            <form action="http://www.ts.kg/show/the_witcher_2019" target="_blank">
+                                <button class="wrapper__btn">Смотреть онлайн</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <a href="https://www.youtube.com/watch?v=ehjJ614QfeM" data-fancybox data-width="1100"
+                            data-height="620">
+                            <img src="./src/images/svg/play-btn.svg" alt="" class="play-btn">
+                        </a>
+                    </div>
+                </div>
+                <div class="main__series">
+                    <a href="http://www.ts.kg/show/the_witcher_2019/1/1" target="_blank">
+                        <img src="./src/images/card.png"
+                            alt="" class="card">
+                    </a>
+                    <a href="http://www.ts.kg/show/the_witcher_2019/1/2" target="_blank">
+                        <img src="./src/images/card2.png"
+                            alt="" class="card card-hide">
+                    </a>
+                    <img src="./src/images/svg/arrow.svg" alt="arrow" class="arrow">
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__nav">
+                    <ul class="nav nav-1">
+                        <li class="nav__item">© 2020 The Witcher. All right reserved.</li>
+                    </ul>
+                    <ul class="nav nav-2">
+                        <li class="nav__item">Privacy Policy</li>
+                        <li class="nav__item">Terms of Service</li>
+                        <li class="nav__item">Legal</li>
+                    </ul>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./src/jqueryFancybox/jquery.fancybox.min.js"></script>
+</body>
+
+</html>
