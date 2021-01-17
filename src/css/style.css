@@ -1,3 +1,4 @@
+@import url(../js/jqueryFancybox/jquery.fancybox.min.css);
 @font-face {
   font-family: "MasonChronicles";
   src: url("../fonts/masonchronicles.eot");
@@ -24,7 +25,7 @@ body {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  background: url(https://github.com/amantaysv/Projects/blob/main/Witcher/src/images/background.png?raw=true) right top/1054px 900px no-repeat;
+  background: url(../images/background.png) right top/1054px 900px no-repeat;
 }
 
 @media (min-width: 1200px) {
