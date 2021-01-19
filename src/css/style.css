@@ -36,7 +36,7 @@ body {
 
 @media (min-width: 992px) and (max-width: 1200px) {
   .home {
-    background: url(https://github.com/amantaysv/Projects/blob/main/Witcher/images/background.png?raw=true) center top/auto auto no-repeat;
+    background: url(../images/background.png) center top/auto auto no-repeat;
   }
   .home .header {
     padding-top: 50px;
@@ -70,7 +70,7 @@ body {
 @media (min-width: 768px) and (max-width: 992px) {
   .home {
     max-width: 992px;
-    background: url(https://github.com/amantaysv/Projects/blob/main/Witcher/images/background.png?raw=true) center top/auto auto no-repeat;
+    background: url(../images/background.png) center top/auto auto no-repeat;
   }
   .home .header {
     padding-top: 40px;
@@ -104,7 +104,7 @@ body {
 @media (min-width: 576px) and (max-width: 768px) {
   .home {
     max-width: 768px;
-    background: url(https://github.com/amantaysv/Projects/blob/main/Witcher/images/background.png?raw=true) center top/auto auto no-repeat;
+    background: url(../images/background.png) center top/auto auto no-repeat;
   }
   .home .header {
     padding-top: 30px;
@@ -137,7 +137,7 @@ body {
 
 @media (max-width: 576px) {
   .home {
-    background: url(https://github.com/amantaysv/Projects/blob/main/Witcher/images/background.png?raw=true) center top/auto auto no-repeat;
+    background: url(../images/background.png) center top/auto auto no-repeat;
     padding-top: 80px;
     max-width: 576px;
   }
