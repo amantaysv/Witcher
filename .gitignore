@@ -1,0 +1,16 @@
+# Node build artifacts
+/node_modules
+node_modules
+npm-debug.log
+
+# Local development
+*.env
+*.dev
+*.scss
+*.DS_Store
+/scss
+style.css
+
+# Docker
+Dockerfile
+docker-compose.yml
