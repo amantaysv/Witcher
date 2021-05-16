@@ -1,40 +1,14 @@
 .footer {
-    margin-top: 135px;
+    width: 100%;
+    padding: 20px 0;
     background: #141218;
 
-    .container {
-        width: 80%;
-        height: 60px;
-        display: flex;
-        margin: 0 auto;
-    }
+    .nav-item {
+        font-size: 14px;
+        opacity: 0.4;
 
-    &__nav {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        align-content: center;
-
-        margin: 0 auto;
-        flex-wrap: wrap;
-
-        .nav {
-            display: flex;
-            flex-wrap: wrap;
-
-            &__item {
-                font-family: Roboto;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 14px;
-                line-height: 20px;
-                display: flex;
-                align-items: center;
-                color: rgb(116, 116, 116);
-                margin-right: 25px;
-                justify-content: space-between;
-            }
+        &:not(:last-child) {
+            margin-right: 25px;
         }
     }
 }

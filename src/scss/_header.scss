@@ -1,64 +1,48 @@
 .header {
     padding-top: 60px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
 
-    .container {
-        width: 80%;
-        margin: 0 auto;
+    .navbar {
         display: flex;
-    }
-
-    &-header {
-        display: flex;
-
-        .logo {
+        justify-content: space-between;
+        align-items: center;
+        
+        &-brand {
             margin-right: 68px;
         }
-    }
 
-    .burger {
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-
-        .menu__box {
-            display: flex;
+        &-nav {
             width: 100%;
+            display: flex;
+            align-items: center;
             justify-content: space-between;
 
-            .nav {
-                display: flex;
-                align-items: center;
+            .nav-link {
+                color: #fff;
+                font-weight: 400;
+                font-size: 14px;
+            }
+        }
 
-                .logo {
-                    margin-right: 68px;
-                }
+        &-links {
+            display: flex;
 
-                &__link {
-                    text-align: center;
-                    font-family: Roboto;
-                    font-style: normal;
-                    line-height: 37px;
-                    font-weight: normal;
-                    font-size: 14px;
-                    color: #FFFFFF;
-                    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-                    text-decoration: none;
+            .nav-item {
+                &:not(:last-child) {
                     margin-right: 24px;
-
-                    &:hover {
-                        color: #E50914;
-                    }
                 }
+            }
+        }
 
-                &__icon-1 {
+        &-social {
+            display: flex;
+
+            .nav-item {
+                &:not(:last-child) {
                     margin-right: 20px;
-                    margin-left: 20px;
-                }
-
-                &__icon {
-                    &:hover {
-                        transform: scale(1.5);
-                    }
                 }
             }
         }
